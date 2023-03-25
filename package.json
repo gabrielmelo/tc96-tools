@@ -1,9 +1,13 @@
 {
   "name": "@tc96/tc96-lint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
-  "private": false,
   "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
