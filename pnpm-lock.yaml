@@ -3,14 +3,21 @@ lockfileVersion: 5.4
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      eslint: ^8.36.0
+      eslint-config-prettier: ^8.8.0
+      prettier: ^2.8.7
+    devDependencies:
+      eslint: 8.36.0
+      eslint-config-prettier: 8.8.0_eslint@8.36.0
+      prettier: 2.8.7
 
   packages/eslint-config-js:
     specifiers:
       eslint: ^8.36.0
       eslint-config-prettier: ^8.8.0
       eslint-plugin-prettier: ^4.2.1
-      prettier: ^2.8.7
+      prettier: 2.8.7
     devDependencies:
       eslint: 8.36.0
       eslint-config-prettier: 8.8.0_eslint@8.36.0
