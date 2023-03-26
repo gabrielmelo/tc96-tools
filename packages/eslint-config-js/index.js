@@ -1,3 +1,5 @@
+const prettierConfig = require('../prettier-config')
+
 module.exports = {
 	env: {
 		browser: true,
@@ -10,5 +12,12 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	rules: {},
+	rules: {
+		'prettier/prettier': [
+			'error',
+			{
+				...prettierConfig,
+			},
+		],
+	},
 }
