@@ -1,0 +1,20 @@
+{
+	"name": "@tc96/prettier-config",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [
+		"prettier",
+		"prettier-config"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gabrielmelo/tc96-lint.git"
+	},
+	"author": "Gabriel Melo",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gabrielmelo/tc96-lint/issues"
+	},
+	"homepage": "https://github.com/gabrielmelo/tc96-lint#readme"
+}
