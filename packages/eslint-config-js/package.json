@@ -1,7 +1,7 @@
 {
 	"name": "@tc96/eslint-config-js",
-	"version": "0.4.0",
-	"description": "",
+	"version": "0.4.1",
+	"description": "ESLint configuration for JavaScript projects",
 	"main": "index.js",
 	"keywords": [
 		"eslint",
@@ -15,6 +15,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@tc96/prettier-config": "workspace:^0.1.0",
 		"eslint": "^8.36.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "^4.2.1",

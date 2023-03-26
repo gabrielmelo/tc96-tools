@@ -1,5 +1,3 @@
-const prettierConfig = require('../prettier-config')
-
 module.exports = {
 	env: {
 		browser: true,
@@ -16,7 +14,15 @@ module.exports = {
 		'prettier/prettier': [
 			'error',
 			{
-				...prettierConfig,
+				arrowParens: 'always',
+				bracketSpacing: true,
+				bracketSameLine: false,
+				printWidth: 80,
+				useTabs: true,
+				tabWidth: 2,
+				trailingComma: 'all',
+				semi: false,
+				singleQuote: true,
 			},
 		],
 	},
