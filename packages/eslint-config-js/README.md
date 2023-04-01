@@ -21,8 +21,6 @@ Extend this package in your `.eslintrc.*` configuration, like this:
 
 ```js
 module.exports = {
-	eslintConfig: {
-		extends: '@tc96/eslint-config-js',
-	},
+	extends: '@tc96/eslint-config-js',
 }
 ```
