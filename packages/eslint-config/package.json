@@ -3,6 +3,9 @@
 	"version": "0.6.0",
 	"description": "ESLint configuration for JavaScript projects",
 	"main": "index.js",
+  "repository": {
+    "url": "https://github.com/gabrielmelo/tc96-tools/"
+  },
 	"keywords": [
 		"eslint",
 		"eslint-config"
