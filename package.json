@@ -1,6 +1,6 @@
 {
 	"name": "tc96-tools",
-	"version": "0.5.2",
+	"version": "0.6.0",
 	"description": "",
 	"workspaces": {
 		"packages": [
@@ -21,6 +21,8 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@tc96-tools/eslint-config": "workspace:^",
+		"@typescript-eslint/eslint-plugin": "^6.8.0",
+		"@typescript-eslint/parser": "^6.8.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"eslint": "^8.36.0",
 		"eslint-config-prettier": "^8.8.0",

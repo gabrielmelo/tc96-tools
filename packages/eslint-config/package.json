@@ -1,15 +1,17 @@
 {
 	"name": "@tc96-tools/eslint-config",
-	"version": "0.5.2",
+	"version": "0.6.0",
 	"description": "ESLint configuration for JavaScript projects",
 	"main": "index.js",
 	"keywords": [
 		"eslint",
 		"eslint-config"
-	],
+	], 
 	"license": "MIT",
 	"devDependencies": {
 		"@tc96-tools/prettier-config": "workspace:^",
+		"@typescript-eslint/eslint-plugin": "^6.8.0",
+		"@typescript-eslint/parser": "^6.8.0",
 		"eslint": "^8.36.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "^4.2.1",
@@ -20,6 +22,6 @@
 		"prettier": "^2.8.7"
 	},
 	"publishConfig": {
-    "access": "public"
-  }
+		"access": "public"
+	}
 }
