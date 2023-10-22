@@ -1,8 +1,8 @@
 module.exports = {
-	arrowParens: 'always',
+	arrowParens: 'avoid',
 	bracketSpacing: true,
 	bracketSameLine: false,
-	printWidth: 80,
+	printWidth: 120,
 	useTabs: true,
 	tabWidth: 2,
 	trailingComma: 'all',
