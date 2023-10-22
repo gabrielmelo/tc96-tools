@@ -1,6 +1,6 @@
 {
   "name": "@tc96-tools/utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "type": "module",
   "main": "./dist/utils.umd.cjs",
@@ -9,6 +9,9 @@
   ],
   "repository": {
     "url": "https://github.com/gabrielmelo/tc96-tools/"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Gabriel Melo",
   "license": "MIT",
