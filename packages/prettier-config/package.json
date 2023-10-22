@@ -1,20 +1,13 @@
 {
 	"name": "@tc96-tools/prettier-config",
-	"version": "0.1.0",
-	"description": "",
+	"version": "0.0.0",
 	"main": "index.js",
+	"publishConfig": {
+    "access": "public"
+  },
 	"keywords": [
 		"prettier",
 		"prettier-config"
 	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/gabrielmelo/tc96-tools.git"
-	},
-	"author": "Gabriel Melo",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/gabrielmelo/tc96-tools/issues"
-	},
-	"homepage": "https://github.com/gabrielmelo/tc96-tools#readme"
+	"license": "MIT"
 }
