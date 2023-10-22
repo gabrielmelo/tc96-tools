@@ -1,3 +1,4 @@
 {
-	"extends": "./packages/eslint-config-js"
+	"root": true,
+	"extends": "@tc96-tools/eslint-config/base"
 }
