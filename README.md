@@ -1,1 +1,1 @@
-# @tc96-lint
+# @tc96-tools

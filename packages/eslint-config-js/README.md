@@ -8,19 +8,19 @@ Install the package and its peer dependencies
 
 ```sh
 # with npm
-npm install --save-dev @tc96/eslint-config-js eslint prettier
+npm install --save-dev @tc96-tools/eslint-config-js
 
 # with yarn
-yarn add -D @tc96/eslint-config-js eslint prettier
+yarn add -D @tc96-tools/eslint-config-js
 
 # with pnpm
-pnpm i -D @tc96/eslint-config-js eslint prettier
+pnpm i -D @tc96-tools/eslint-config-js
 ```
 
 Extend this package in your `.eslintrc.*` configuration, like this:
 
 ```js
 module.exports = {
-	extends: '@tc96/eslint-config-js',
+	extends: '@tc96-tools/eslint-config-js',
 }
 ```

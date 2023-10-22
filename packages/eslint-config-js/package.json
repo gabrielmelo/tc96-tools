@@ -1,5 +1,5 @@
 {
-	"name": "@tc96/eslint-config-js",
+	"name": "@tc96-tools/eslint-config-js",
 	"version": "0.4.2",
 	"description": "ESLint configuration for JavaScript projects",
 	"main": "index.js",
@@ -10,7 +10,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/gabrielmelo/tc96-lint.git"
+		"url": "git+https://github.com/gabrielmelo/tc96-tools.git"
 	},
 	"author": "",
 	"license": "ISC",
@@ -25,7 +25,7 @@
 		"prettier": "^2.8.7"
 	},
 	"bugs": {
-		"url": "https://github.com/gabrielmelo/tc96-lint/issues"
+		"url": "https://github.com/gabrielmelo/tc96-tools/issues"
 	},
-	"homepage": "https://github.com/gabrielmelo/tc96-lint#readme"
+	"homepage": "https://github.com/gabrielmelo/tc96-tools#readme"
 }
