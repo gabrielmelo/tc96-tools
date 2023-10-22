@@ -1,0 +1,35 @@
+{
+  "name": "@tc96-tools/utils",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/utils.umd.cjs",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "url": "https://github.com/gabrielmelo/tc96-tools/"
+  },
+  "author": "Gabriel Melo",
+  "license": "MIT",
+  "module": "./dist/utils.js",
+  "types": "./dist/utils.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/utils.js",
+      "require": "./dist/utils.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint --ext .ts src/**",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tc96-tools/eslint-config": "workspace:^",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.1.0"
+  }
+}

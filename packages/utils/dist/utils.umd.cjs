@@ -1,0 +1,1 @@
+(function(e,t){typeof exports=="object"&&typeof module<"u"?t(exports):typeof define=="function"&&define.amd?define(["exports"],t):(e=typeof globalThis<"u"?globalThis:e||self,t(e.utils={}))})(this,function(e){"use strict";const t=n=>document.querySelector(n),l=n=>document.querySelectorAll(n);e.select=t,e.selectAll=l,Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});
