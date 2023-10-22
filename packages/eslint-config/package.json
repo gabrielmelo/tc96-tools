@@ -1,6 +1,6 @@
 {
 	"name": "@tc96-tools/eslint-config",
-	"version": "0.0.0",
+	"version": "0.5.2",
 	"description": "ESLint configuration for JavaScript projects",
 	"main": "index.js",
 	"keywords": [
