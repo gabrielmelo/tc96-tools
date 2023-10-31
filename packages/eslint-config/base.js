@@ -1,19 +1,23 @@
 module.exports = {
 	env: {
-		browser: true,
 		es2021: true,
-		node: true,
 	},
-	extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
-	overrides: [],
-	parser: '@typescript-eslint/parser',
+	extends: ['eslint:recommended', 'prettier'],
 	parserOptions: {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	plugins: ['@typescript-eslint'],
+	plugins: ['prettier'],
 	rules: {
 		'prettier/prettier': ['error', require('@tc96-tools/prettier-config')],
+		'no-implicit-globals': 'error',
+		'no-unused-vars': 'off',
+		'no-dupe-args': 'error',
+		'no-debugger': 'error',
+		'no-duplicate-imports': 'error',
+		'arrow-body-style': ['error', 'always'],
+		camelcase: 'error',
 	},
+	noInlineConfig: true,
 	root: true,
 }

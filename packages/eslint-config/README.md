@@ -6,21 +6,32 @@ ESLint configuration for JavaScript projects
 
 Install the package and its peer dependencies
 
+**with npm**
 ```sh
-# with npm
 npm install --save-dev @tc96-tools/eslint-config
+``````
 
-# with yarn
+**with yarn**
+```sh
 yarn add -D @tc96-tools/eslint-config
-
-# with pnpm
+```
+**with pnpm**
+```sh
 pnpm i -D @tc96-tools/eslint-config
 ```
 
+## Use
 Extend this package in your `.eslintrc.*` configuration, like this:
 
+**browser**
 ```js
 module.exports = {
-	extends: '@tc96-tools/eslint-config/base',
+	extends: '@tc96-tools/eslint-config/browser',
+}
+```
+**node**
+```js
+module.exports = {
+	extends: '@tc96-tools/eslint-config/node',
 }
 ```
