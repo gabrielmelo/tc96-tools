@@ -11,7 +11,7 @@ module.exports = {
 	rules: {
 		'prettier/prettier': ['error', require('@tc96-tools/prettier-config')],
 		'no-implicit-globals': 'error',
-		'no-unused-vars': 'off',
+		'no-unused-vars': 'error',
 		'no-dupe-args': 'error',
 		'no-debugger': 'error',
 		'no-duplicate-imports': 'error',
