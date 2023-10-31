@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/gabrielmelo/tc96-tools/compare/v0.7.0...v0.8.0) (2023-10-31)
+
+
+### Bug Fixes
+
+* **utils:** add acess public ([e08a40f](https://github.com/gabrielmelo/tc96-tools/commit/e08a40ff2e394b5bedf2ecae985f800943d5ae88))
+
 ## [0.7.0](https://github.com/gabrielmelo/tc96-tools/compare/v0.5.2...v0.7.0) (2023-10-22)
 
 

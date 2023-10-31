@@ -1,6 +1,6 @@
 {
 	"name": "tc96-tools",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"description": "",
 	"repository": {
 		"url": "https://github.com/gabrielmelo/tc96-tools/"
@@ -27,7 +27,7 @@
 		"cz-conventional-changelog": "^3.3.0",
 		"eslint": "^8.36.0",
 		"eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
+		"eslint-plugin-prettier": "^5.0.1",
 		"prettier": "^2.8.7",
 		"standard-version": "^9.5.0"
 	},
