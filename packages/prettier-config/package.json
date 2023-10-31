@@ -1,6 +1,6 @@
 {
 	"name": "@tc96-tools/prettier-config",
-	"version": "0.5.2",
+	"version": "0.6.0",
 	"main": "index.js",
 	"publishConfig": {
     "access": "public"
