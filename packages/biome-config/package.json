@@ -1,13 +1,13 @@
 {
 	"name": "@tc96/biome-config",
 	"private": false,
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"publishConfig": {
 		"access": "public"
 	},
 	"exports": {
-		"./biome": "./biome.json"
+		".": "./biome.json"
 	},
 	"scripts": {
 		"lint": "biome check --fix",
