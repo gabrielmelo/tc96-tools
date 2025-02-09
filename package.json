@@ -1,39 +1,21 @@
 {
 	"name": "tc96-tools",
-	"version": "0.9.0",
+	"version": "0.10.0",
 	"description": "",
 	"repository": {
 		"url": "https://github.com/gabrielmelo/tc96-tools/"
 	},
 	"workspaces": {
-		"packages": [
-			"packages/*"
-		]
-	},
-	"scripts": {
-		"release": "standard-version",
-		"release:minor": "npm run release -- --release-as minor",
-		"release:path": "npm run release -- --release-as path"
+		"packages": ["packages/*"]
 	},
 	"keywords": [
 		"eslint",
 		"eslint-config",
-		"prettier"
+		"prettier",
+		"prettier-config",
+		"biome",
+		"biome-config"
 	],
 	"author": "Gabriel Melo",
-	"license": "ISC",
-	"devDependencies": {
-		"@tc96-tools/eslint-config": "workspace:^",
-		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^8.36.0",
-		"eslint-config-prettier": "^9.0.0",
-		"eslint-plugin-prettier": "^5.0.1",
-		"prettier": "3.0.3",
-		"standard-version": "^9.5.0"
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+	"devDependencies": {}
 }
