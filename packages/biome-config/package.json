@@ -1,0 +1,22 @@
+{
+	"name": "@tc96/biome-config",
+	"private": false,
+	"version": "0.0.1",
+	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
+	"exports": {
+		"./biome": "./biome.json"
+	},
+	"scripts": {
+		"lint": "biome check --fix",
+		"lint:staged": "biome check --staged --fix",
+		"lint:ci": "biome ci"
+	},
+	"keywords": ["biome", "biome-config", "lint"],
+	"license": "MIT",
+	"peerDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
